@@ -1,0 +1,52 @@
+{
+	"emailSubject": "Question 3 with composite template",
+	"emailBlurb": "Question 3",
+	"status": "sent",
+	"compositeTemplates": [{
+		"serverTemplates": [{
+			"sequence": "1",
+			"templateId": "779abcd5-f4c1-489f-9016-577be2f1ef70"
+		}],
+		"inlineTemplates": [{
+			"sequence": "2",
+			"recipients": {
+				"signers": [{
+						"email": "johndoe@test.test",
+						"name": "John Doe",
+						"recipientId": "1",
+						"roleName": "Signer 1"
+					},
+					{
+						"email": "janedoe@test.test",
+						"name": "Jane Doe",
+						"recipientId": "2",
+						"roleName": "Signer 2"
+					}
+				]
+			}
+		}]
+	}, {
+		"serverTemplates": [{
+			"sequence": "3",
+			"templateId": "8a38b4dd-0c8c-4f12-98bd-797a9ee4ce2e"
+		}],
+		"inlineTemplates": [{
+			"sequence": "4",
+			"recipients": {
+				"signers": [{
+						"email": "johndoe@test.test",
+						"name": "John Doe",
+						"recipientId": "1",
+						"roleName": "Signer 1"
+					},
+					{
+						"email": "janedoe@test.test",
+						"name": "Jane Doe",
+						"recipientId": "2",
+						"roleName": "Signer 2"
+					}
+				]
+			}
+		}]
+	}]
+}
